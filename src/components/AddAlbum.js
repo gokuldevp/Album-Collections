@@ -20,6 +20,7 @@ const AddAlbum = (props) => {
             placeholder="Album Title"
             value={newAlbum.title}
             onChange={(e) => setNewAlbum({ title: e.target.value })}
+            required
           />
 
           {/* Button, dynamically displaying "Update Album" or "Add Album" based on selectedAlbum */}
